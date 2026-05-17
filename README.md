@@ -6,12 +6,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-013243?style=for-the-badge&logo=numpy)](https://numpy.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Research](https://img.shields.io/badge/Research-Original_Algorithm-FF6F00?style=for-the-badge)](HOMO_SAPIENS_OPTIMIZATION.ipynb)
 
 *A population-based optimization algorithm that models the lifecycle dynamics of biological organisms — aging, reproduction, exploration under desperation, and niche competition — to solve high-dimensional continuous optimization problems.*
 
-**Author: [AG](https://github.com/AG) — Chief AI Officer, Google**
+**Author: [Mohammad Asadolahi](https://github.com/MohammadAsadolahi) — Senior Agentic AI Engineer | Focus: Agentic AI Architectures In The Wild**
 
 ---
 
@@ -175,7 +174,7 @@ $$d_{\text{offspring}}^{(i)} = U(-\beta, +\beta) \quad \forall\; i \in \mathcal{
 | **Sphere** | 1.17e+00 | **7.16e-09** | 4.71e-01 | 5.00e-03 |
 | **Rosenbrock** | 9.03e+01 | **5.38e+00** | 1.07e+02 | 5.69e+01 |
 
-> **Note:** The original algorithm was designed and tested on the **100-dimensional Levy function** (see notebook), demonstrating its capability on high-dimensional multimodal landscapes. The table above shows low-dimensional comparison runs with reduced population for fast benchmarking. HSO shows particularly strong performance on multimodal functions like Rastrigin where diversity pressure prevents premature convergence to local optima.
+> **Note:** The original algorithm was designed and tested on the **100-dimensional Levy function** (see notebook), demonstrating its capability on high-dimensional multimodal landscapes. The table above shows low-dimensional comparison runs (D=10) with reduced population for fast benchmarking. Results are from single runs without averaging, so they may vary between executions.
 
 ---
 
@@ -277,6 +276,7 @@ rounds = 500                  # Number of iterations
     ├── mechanism_exploration.png      # Exploration mechanism analysis
     ├── population_dynamics.png        # Population size & convergence dynamics
     ├── results_heatmap.png            # Performance summary heatmap
+    ├── results_table.txt             # Raw benchmark results data
     └── scalability.png               # Dimensional scalability analysis
 ```
 
@@ -289,9 +289,9 @@ If you use this algorithm in your research, please cite:
 ```bibtex
 @software{hso2024,
   title     = {Homo Sapiens Optimization: A Bio-Inspired Metaheuristic for Continuous Optimization},
-  author    = {AG},
+  author    = {Mohammad Asadolahi},
   year      = {2024},
-  url       = {https://github.com/AG/HomoSapiens-Optimization-Algorithm-Continuous},
+  url       = {https://github.com/MohammadAsadolahi/HomoSapiens-Optimization-Algorithm-Continuous},
   note      = {A novel population-based optimizer with age-adaptive exploration and niche competition}
 }
 ```
@@ -300,8 +300,8 @@ If you use this algorithm in your research, please cite:
 
 <div align="center">
 
-*Designed with scientific rigor and engineering intuition.*
-
-**AG** — Chief AI Officer, Google
+**[Mohammad Asadolahi](https://github.com/MohammadAsadolahi)** — Senior Agentic AI Engineer | Focus: Agentic AI Architectures In The Wild
 
 </div>
+
+this readme is AI assisted generated, so check for mistakes
